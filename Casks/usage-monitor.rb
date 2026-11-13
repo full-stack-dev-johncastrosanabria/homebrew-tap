@@ -1,9 +1,9 @@
 cask "usage-monitor" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "0.2.1"
-  sha256 arm:   "e820edbadf561cc5cc2291c83b28acdc2431856f8a31c964a1f6cddef35ac988",
-         intel: "01e922d9b957399164474cb964c52b9615ccc4e9d61c1957acd9786b9885fde1"
+  version "0.2.2"
+  sha256 arm:   "c920eb71ead94e4c0fc7c1cb5ca4d28ee0ad4851563e752b7ec185772c213366",
+         intel: "266ecd880e90102b719142ce5aff9c94034a235a8052ca380af2f5ec6458f66a"
 
   url "https://github.com/full-stack-dev-johncastrosanabria/usage-status-monitor/releases/download/v#{version}/UsageMonitor-#{version}-#{arch}.dmg"
   name "Usage Monitor"
