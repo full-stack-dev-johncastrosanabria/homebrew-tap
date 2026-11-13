@@ -15,7 +15,7 @@ cask "usage-monitor" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "UsageMonitor.app"
   binary "#{appdir}/UsageMonitor.app/Contents/Resources/usage"
